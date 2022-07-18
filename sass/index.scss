@@ -1,0 +1,11 @@
+@import "container.scss";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1440px;
+}
+.container{
+    width: $container;
+}
