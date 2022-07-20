@@ -6,6 +6,13 @@
 body{
     width: 1440px;
 }
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    background-color: #d3c8c8;
+    padding: 10px 0px;
+}
+
 .container{
     width: $container;
     display: flex;
