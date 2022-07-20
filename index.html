@@ -15,52 +15,45 @@
     <header>
     <div class="container">
       <img src="imgs/logo&icons/logo-EBFI.png" alt="logo_ebfi">
-      <nav>
-        <ul>
-          <li>
-            <div class="dropdown">
-              <button class="dropbtn">About Company</button>
-              <div class="dropdown-content">
-                <a href="">History</a>
-                <a href="">Our Clients</a>
-                <a href="">Our Experiance</a>
 
-              </div>
-
-            </div>
-          </li>
-          <li>
-            <a href="">Laboratories</a>
-          </li>
-          <li>
-            <a href="">Sertificates and Acraditation</a>
-          </li>
-          <li>
-            <div class="dropdown">
-              <button class="dropbtn">Type of Services</button>
-              <div class="dropdown-content">
-                <a href="">Quality and Tally Count</a>
-                <a href="">Audites</a>
-                <a href="">Building Control</a>
-
-              </div>
-
-            </div>
-          </li>
-          <li>Countries In Which We Provide Services</li>
-          <li>Contacts</li>
-        </ul>
-
-      </nav>
+      <div class="sidenav" id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
+        <span>About Company</span>
+        <a href="">History</a>
+        <a href="">Our Clients</a>
+        <a href="">Experiance</a>
+        <span>Our Servises</span>
+        <a href="">Preshipment inspection / Quantity / Condition</a>
+        <a href="">Quality Inspections</a>
+        <a href="">Expidating</a>
+        <a href="">Audits</a>
+        <span>Other</span>
+        <a href="">Country Of Our Works</a>
+        <a href="">Our Ofices / Represantites / Partners</a>
+        <a href="">Laboratories</a>
+        <a href="">Our Experiance</a>
+        <a href="">Our Attestations / Sertifications</a>
+      </div>
+      <span onclick="openNav">Menu</span>
+      
       <input type="text">
+      
       <img src="" alt="ISO 17020">
 
     </div>
   </header>
     
 
-    
+  <script >
+    function openNav(){
+    document.getElementById("mySidenav").style.width="300px";
+}
+function closeNav(){
+    document.getElementById("mySidenav").style.width="0px";
+}
+  </script>
     <script src="js/time.js" ></script>
+    
 
     
   </body>
