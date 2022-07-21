@@ -44,6 +44,15 @@ body {
 .sidenav a:hover {
   color: #f1f1f1; }
 
+.logo_EBFI {
+  height: 70px;
+  width: 260px;
+  margin-top: 5px; }
+
+.logo_ISO17020 {
+  height: 100px;
+  width: 200px; }
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px; }
