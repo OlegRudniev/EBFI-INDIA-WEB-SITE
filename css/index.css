@@ -61,13 +61,7 @@ body {
   margin-top: 25px;
   color: black;
   font-weight: bold;
-  font-size: 30px;
-  cursor: pointer;
-  transition: 3s; }
-
-.menu:hover {
-  color: #818181;
-  font-size: 50px; }
+  font-size: 30px; }
 
 .search {
   display: flex;
