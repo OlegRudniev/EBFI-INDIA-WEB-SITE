@@ -1,5 +1,15 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 1440px;
+  background-color: aqua; }
+
 .header-time {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background-color: #d3c8c8;
+  padding: 10px 0px; }
 
 /*# sourceMappingURL=index.css.map */
