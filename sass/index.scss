@@ -101,3 +101,35 @@ body{
       font-size: 18px;
     }
   }
+// Начало стилизации блока Footer
+footer{
+    background-color: #323946;
+    color: white;
+}  
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .footer-item__left{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .footer-logo{
+    margin-bottom: 20px;
+  }
+  .footer-contacts__right{
+    margin-top: 60px;
+    margin-right: 20px;
+  }
+  .footer__li{
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  .footer-developer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+ // Конец стилизации блока Footer 
