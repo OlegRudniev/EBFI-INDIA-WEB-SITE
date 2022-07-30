@@ -101,6 +101,17 @@ body{
       font-size: 18px;
     }
   }
+  //Начало стилизации блока Main Slideshow
+  .slideshow{
+    max-width: 1440px;
+    position: relative;
+    margin: auto;
+  }
+  .myslides img{
+    width: 100%;
+  }
+
+  //Конец стилизации блока Main Slideshow
 // Начало стилизации блока Footer
 footer{
     background-color: #323946;

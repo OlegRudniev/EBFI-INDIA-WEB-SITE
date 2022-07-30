@@ -50,11 +50,63 @@
       
           </div><!--Основная часть Header c Логотипом, Меню, Поиском и ИСО 17020-->
     </header>
-    <main></main>
+    <main>
+        <div class="slideshow">
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_history.jpg" alt="img.EBFI.History">
+                <div class="text"></div>
+            </div>
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Clients">
+                <div class="text"></div>
+            </div>
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Experiance">
+                <div class="text"></div>
+            </div>
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Preshipment inspection/Quantity/Condition">
+                <div class="text"></div>
+            </div>
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Quality Inspection">
+                <div class="text"></div>
+            </div>
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Expedyting">
+                <div class="text"></div>
+            </div>
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Audits">
+                <div class="text"></div>
+            </div>
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Country Of Our Works">
+                <div class="text"></div>
+            </div>
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Our Offices/Represatities/Partners">
+                <div class="text"></div>
+            </div>
+            <<div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Laboratories">
+                <div class="text"></div>
+            </div>
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Our Experiance">
+                <div class="text"></div>
+            </div>
+            <div class="myslides fade">
+                <img src="imgs/pictures/picture_EBFI_clients.png" alt="img.EBFI.Our Attestations/Sertifications">
+                <div class="text"></div>
+            </div>
+
+        </div>
+    </main>
     <footer>
         <div class="footer">
             <div class="footer-item__left">
-<img class="footer-logo" src="imgs/logo&icons/logo_EBFI.png" alt="logo_EBFI">
+<img class="footer-logo" src="imgs/logo&icons/EBFI.logo.white_text.svg" alt="logo_EBFI_white">
 <p class="footer-text">We provide expert financial advice to both individuals and businesses. With over 20 years of <br>
      experience we’ll ensure that you’re always getting the best guidance from the top people <br>
       in the entire industry.</p>
@@ -77,6 +129,21 @@
             <p>© Engineering Bureau Franke International 2007-2022. Independent Inspection Company</p>
         </div>
     </footer>
+
+    <script>
+        var slideIndex=0;
+        showSlides();
+        function showSlides(){
+            var i;
+            var slides=document.getElementsByClassName("myslides");
+            var dots=document.getElementsByClassName("dot");
+            for(i=0;i<slides.length;i++){
+                slides[i].style.display="none";
+            }
+            slideIndex++;
+            if(slideIndex>slides.length){}//
+        }
+    </script>
     
     
 </body>

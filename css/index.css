@@ -92,6 +92,14 @@ body {
 
   .sidenav a {
     font-size: 18px; } }
+.slideshow {
+  max-width: 1440px;
+  position: relative;
+  margin: auto; }
+
+.myslides img {
+  width: 100%; }
+
 footer {
   background-color: #323946;
   color: white; }
