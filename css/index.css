@@ -101,10 +101,12 @@ body {
   width: 100%; }
 
 .myslides {
+  bottom: 8px; }
+
+.text {
   font-size: 20px;
   text-align: center;
-  font-weight: bold;
-  bottom: 8px; }
+  font-weight: bold; }
 
 footer {
   background-color: #323946;
