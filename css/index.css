@@ -98,10 +98,8 @@ body {
   margin: auto; }
 
 .myslides img {
-  width: 100%; }
-
-.myslides {
-  bottom: 8px; }
+  width: 80%;
+  margin-left: 150px; }
 
 .text {
   font-size: 20px;
