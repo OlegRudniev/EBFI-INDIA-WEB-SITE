@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Lato', sans-serif; }
 
 body {
   width: 1440px; }
@@ -92,6 +93,23 @@ body {
 
   .sidenav a {
     font-size: 18px; } }
+main {
+  text-align: center; }
+  main .main-h1 {
+    margin-bottom: 30px; }
+  main .main-h3 {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  main .main-li {
+    margin-top: 15px; }
+  main .main-p {
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif; }
+
 footer {
   background-color: #323946;
   color: white; }
@@ -120,4 +138,4 @@ footer {
   display: flex;
   justify-content: space-around; }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=history.css.map */
