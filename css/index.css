@@ -92,6 +92,12 @@ body {
 
   .sidenav a {
     font-size: 18px; } }
+.carousel-control-prev {
+  z-index: -1; }
+
+.carousel-control-next {
+  z-index: -1; }
+
 footer {
   background-color: #323946;
   color: white; }

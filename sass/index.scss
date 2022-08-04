@@ -102,7 +102,12 @@ body{
     }
   }//Конец стилизации всего блока Header
   //Начало стилизации блока Main Slideshow
-  
+  .carousel-control-prev{
+    z-index: -1;
+  }
+  .carousel-control-next{
+    z-index: -1;
+  }
 
   //Конец стилизации блока Main Slideshow
 // Начало стилизации блока Footer
