@@ -8,6 +8,10 @@
     <title>Map</title>
 </head>
 <body>
+    <?php
+    require('php/header.php');
+      ?>
+
     <img class="body-img" src="imgs/pictures/picture_Map.png" alt="Map">
     <div class="map">
         <h2 class="map-h2">Countries where we work</h2>
@@ -39,5 +43,12 @@
     </div>
         
     </div>
+
+    <?php
+require('php/footer.php');
+  ?>
 </body>
+
+
+
 </html>
