@@ -4,7 +4,7 @@
             <div id="current_date_time_block"></div>
         </div><!--header ИБФИ начало и дата с часами-->
         <div class="container"><!-- Начало Основная часть Header c Логотипом, Меню, Поиском и ИСО 17020-->
-            <a href="index.html">
+            <a href="index.php">
                 <img class="logo_EBFI" src="imgs/logo&icons/logo_EBFI.png" alt="logo_ebfi">
             </a>      
             <div id="mySidenav" class="sidenav">
