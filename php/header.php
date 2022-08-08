@@ -11,7 +11,7 @@
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
               <img class="mySidenav_logo_EBFI" src="imgs/logo&icons/logo_EBFI.png" alt="logo_EBFI">
               <span class="span">About Company</span>
-              <a href="history.html">HISTORY</a>
+              <a href="history.php">HISTORY</a>
               <a href="">Experiance</a>
               <span class="span">Our Servises</span>
               <a href="">Preshipment inspection / Quantity / Condition</a>
@@ -19,7 +19,7 @@
               <a href="">Expidating</a>
               <a href="">Audits</a>
               <span class="span">Other</span>
-              <a href="map.html">Country Of Our Works/Our Ofices / Represantites / Partners</a>        
+              <a href="map.php">Country Of Our Works/Our Ofices / Represantites / Partners</a>        
               <a href="">Laboratories</a>
               <a href="">Our Attestations / Sertifications</a>
             </div>
