@@ -11,44 +11,9 @@
     <title>EBFI INDIA</title>
 </head>
 <body>
-    <header>
-        <div class="header-time"><!--header ИБФИ начало и дата с часами-->
-            <div>© Engineering Bureau Franke International from 2006. Independent Inspection Company</div>
-            <div id="current_date_time_block"></div>
-        </div><!--header ИБФИ начало и дата с часами-->
-        <div class="container"><!-- Начало Основная часть Header c Логотипом, Меню, Поиском и ИСО 17020-->
-            <a href="index.html">
-                <img class="logo_EBFI" src="imgs/logo&icons/logo_EBFI.png" alt="logo_ebfi">
-            </a>      
-            <div id="mySidenav" class="sidenav">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-              <img class="mySidenav_logo_EBFI" src="imgs/logo&icons/logo_EBFI.png" alt="logo_EBFI">
-              <span class="span">About Company</span>
-              <a href="history.html">HISTORY</a>
-              <a href="">Experiance</a>
-              <span class="span">Our Servises</span>
-              <a href="">Preshipment inspection / Quantity / Condition</a>
-              <a href="">Quality Inspections</a>
-              <a href="">Expidating</a>
-              <a href="">Audits</a>
-              <span class="span">Other</span>
-              <a href="map.html">Country Of Our Works/Our Ofices / Represantites / Partners</a>        
-              <a href="">Laboratories</a>
-              <a href="">Our Attestations / Sertifications</a>
-            </div>
-      
-      
-            <span class="menu" onclick="openNav()">MENU</span>
-            
-            <div class="search">
-            <input placeholder="Search" type="text">
-            <img class="icon_lupa" src="imgs/logo&icons/icon_lupa.svg" alt="icon_lupa">
-          </div>
-      
-            <img class="logo_ISO17020" src="imgs/logo&icons/ISO17020_ER.svg" alt="ISO 17020">
-      
-          </div><!-- Конец Основная часть Header c Логотипом, Меню, Поиском и ИСО 17020-->
-    </header>
+  <?php
+require('php/header.php');
+  ?>
     <main>
               <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"><!--Начало блока карусель-->
                 <div class="carousel-inner">
@@ -130,32 +95,10 @@
           </div><!--Конец блока карусель-->
         
     </main>
-    <footer><!--Начало Footer-->
-        <div class="footer">
-            <div class="footer-item__left">
-<img class="footer-logo" src="imgs/logo&icons/EBFI.logo.white_text.svg" alt="logo_EBFI_white">
-<p class="footer-text">We provide expert financial advice to both individuals and businesses. With over 20 years of <br>
-     experience we’ll ensure that you’re always getting the best guidance from the top people <br>
-      in the entire industry.</p>
-            </div>
-            <div class="footer-contacts__right">
-<ul class="footer__ul">
-    <li class="footer__li">EBFI PRIVAT LIMITED</li>
-    <li class="footer__li"></li>
-    <li class="footer__li">Plot No 2, Office 804, Sector 19D, Vashi,<br>
-    Navi Mumbai, Macharashtra, India, 400705 </li>
-    <li class="footer__li">PHONE: +91 836 946 29 86</li>
-    <li class="footer__li">EMAIL:</li>
-    <li class="footer__li"></li>
-</ul>
 
-            </div>
-        </div>
-        <div class="footer-developer">
-            <p>Developed: OR</p>
-            <p>© Engineering Bureau Franke International 2007-2022. Independent Inspection Company</p>
-        </div>
-    </footer><!--Конец Footer-->
+    <?php
+require('php/footer.php');
+  ?>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
 </body>
