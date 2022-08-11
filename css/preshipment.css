@@ -104,7 +104,8 @@ main li {
   margin-bottom: 30px;
   margin-left: 50px;
   margin-right: 50px;
-  text-align: left; }
+  text-align: left;
+  list-style-type: none; }
 
 footer {
   background-color: #323946;
