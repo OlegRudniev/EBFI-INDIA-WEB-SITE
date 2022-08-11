@@ -103,7 +103,24 @@ body{
   }//Конец стилизации всего блока Header
 
   //Начало стилизации блока Main 
-  
+  main{
+    h1{
+        margin-top: 30px;
+        text-align: center;
+    }
+    p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    li{
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: left;
+    }
+  }
   //Конец стилизации блока Main 
 
   // Начало стилизации блока Footer
